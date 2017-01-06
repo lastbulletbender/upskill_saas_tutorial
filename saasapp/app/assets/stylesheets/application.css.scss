@@ -37,6 +37,19 @@ h1,h2,h3{
     border:none;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:black;
+}
+
+.navbar-default .navbar-toggle{
+    border:2px solid black;
+    &:hover, &:focus{
+        background-color:#FF5F6D;
+        opacity:.75;
+        
+    }
+}
+
 .navbar-brand{
     font-family:'Open Sans',sans-serif;
     font-weight: 800;
